@@ -44,7 +44,7 @@ function scrollFade(){
   }
   sec11Row[2].style.transform = "translateY(0)"
   sec11Row[2].style.opacity = "1"
-  if(we.getBoundingClientRect().top<lookpos*1.4 && we.getBoundingClientRect().top<lookpos*1.8){
+  if(we.getBoundingClientRect().top<lookpos*1.4){
     document.getElementById('we').play()
   }
   if(we.getBoundingClientRect().top>lookpos*2){
