@@ -40,8 +40,19 @@
 #sec3 .sectionWrap .row:nth-child(2) .textwrap:nth-child(2){
   text-align: right;
   width:60%;
+  position: relative;
 }
 
+ .hitbox {
+  width:46%;
+  height:38vw;
+  position: absolute;
+  right:0;
+  top:0;
+}
+ .hitbox.blue{
+  right:46%;
+}
 #sec3 .imgwrap {
   width:64%;
   height:50vw;
@@ -74,6 +85,14 @@
     text-align: right;
     width:95%;
   }
+ .hitbox {
+    width:45%;
+    height:68vw;
+    position: absolute;
+    right:0;
+    top:0;
+  }
+
   #sec3 .imgwrap {
     width:100%;
     height:70vw;
@@ -81,4 +100,5 @@
     position: absolute;
     bottom:0%;
   }
+
 }

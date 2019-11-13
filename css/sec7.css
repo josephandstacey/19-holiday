@@ -27,7 +27,7 @@
 #sec7 .sectionWrap .row.topRow .imgwrap {
   position: relative;
 }
-#sec7 .sectionWrap .row.topRow .imgwrap img {
+#sec7 .sectionWrap .row.topRow .imgwrap iframe {
   width:70%;
 }
 #sec7 .sectionWrap .row.topRow .imgwrap .letter {
@@ -48,7 +48,7 @@
 }
 #sec7 .sectionWrap .row.middleRow img {
   padding-left:2rem;
-  width:60%;
+  width:100%;
   position: absolute;
   z-index: 2;
 }
@@ -66,10 +66,25 @@
   z-index: 0;
 
 }
-
+#sec7 .hitwrap {
+  position: relative;
+  width:60%;
+}
+#sec7 .hitbox {
+  width:50%;
+  height:40vw;
+  position: absolute;
+  left:50%;
+  top:0;
+  z-index: 2;
+  transform:translate(2rem);
+}
+#sec7 .hitbox.gold{
+  left:0;
+}
 @media only screen and (max-width: 768px) {
   #sec7 .sectionWrap .row.middleRow img {
-    width:90%;
+    width:100%;
     position: relative;
   }
   #sec7 .sectionWrap .row.middleRow .textwrap {
@@ -83,6 +98,5 @@
     right:-20%;
     width:80%;
     z-index: 0;
-
   }
 }

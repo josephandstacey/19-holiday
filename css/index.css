@@ -9,7 +9,10 @@
 html {
   font-size:14px;
 }
-
+a {
+  text-decoration: none;
+  padding:0 !important;
+}
 section {
   position: relative;
   width:100%;
