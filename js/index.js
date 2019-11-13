@@ -4,7 +4,7 @@ window.addEventListener("scroll",parallax)
 function parallax(){
     var section = document.getElementsByTagName('section')
     var speed = 4
-    if(window.innerWidth<768)speed=4
+    if(window.innerWidth<768)speed=5
     for(var i=1;i<section.length;i++){
       if(i%2==0){
         eval("sec" + i).style.backgroundPosition = "50% ".concat(50 + (eval("sec" + i).getBoundingClientRect().top) / speed, "%");
@@ -44,10 +44,10 @@ function scrollFade(){
   }
   sec11Row[2].style.transform = "translateY(0)"
   sec11Row[2].style.opacity = "1"
-  if(we.getBoundingClientRect().top<lookpos*1.4){
+  if(we.getBoundingClientRect().top<lookpos*1.4 && we.getBoundingClientRect().top<lookpos*1.8){
     document.getElementById('we').play()
   }
-  if(we.getBoundingClientRect().top>lookpos*2 || we.getBoundingClientRect().top<-lookpos*3){
+  if(we.getBoundingClientRect().top>lookpos*2){
     we.pause()
     we.currentTime = 0;
   }
