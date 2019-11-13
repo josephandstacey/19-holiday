@@ -132,11 +132,6 @@ function sticker(){
 
 sticker()
 
-var textwrap = orderChange.getElementsByClassName('textwrap')
-if(window.innerWidth<768){
-  textwrap[0].innerHTML = '<img src="./imgs/jpg/i1.jpg" alt="">'
-  textwrap[1].innerHTML = '</div><h3>Easypass Amante Card Wallet Eve Edition</h3><p>Blue<br/>Magenta'
-}
 
 if(window.innerWidth<768){
   i4Change.setAttribute("src","./imgs/jpg/i4mobile.jpg")
