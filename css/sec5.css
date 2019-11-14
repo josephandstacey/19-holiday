@@ -58,6 +58,7 @@
   top:0;
   text-align: left;
 }
+
 #sec5 .Imgrow #letter2 {
   position: absolute;
   bottom:0;
@@ -83,6 +84,17 @@
 }
 #sec5 .Imgrow2 .textwrap {
   display: inline-block;
+}
+
+#sec5 .Imgrow2 .textwrap2{
+  position: absolute;
+  right:12%;
+  top:43vw;
+  margin-left:12%;
+  width:30%;
+}
+#sec5 .Imgrow2 .textwrap2 * {
+  padding-left:0;
 }
 #sec5 .videorow img {
   position: absolute;
@@ -161,6 +173,14 @@
     right:0%;
     width:50%;
   }
+  #sec5 .Imgrow2 .textwrap2{
+    position: absolute;
+    right:0%;
+    top:71vw;
+    margin-left:0%;
+    width:50%;
+    transform:translate(2rem);
+  }
   #sec5 .videorow img {
     position: relative;
     left:50%;
@@ -173,4 +193,5 @@
   #sec5 .videorow #we {
     position: absolute;
   }
+
 }

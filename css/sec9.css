@@ -143,4 +143,18 @@
   .sticker {
     width:10%;
   }
+
+  .sticker:nth-child(5) {
+    top:38%;
+    left:72%;
+  }
+}
+  .sticker:nth-child(6) {
+    top:46%;
+    left:43%;
+  }
+  .sticker:nth-child(9) {
+    top:30%;
+    left:36%;
+  }
 }
