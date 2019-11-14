@@ -168,6 +168,7 @@
           <div class="imgwrap">
             <iframe id='movie' src="https://www.youtube.com/embed/c9roApfoGlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <script type="text/javascript">
+              var movie = document.getElementById('movie')
               var x = movie.offsetWidth
               movie.height = 875*x/1167
               window.addEventListener("resize",function(e){
