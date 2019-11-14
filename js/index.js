@@ -4,7 +4,6 @@ function vp(){
   })
 }
 vp().then(()=>{
-  console.log("hello")
   window.addEventListener("scroll",function(e){
     if(we.getBoundingClientRect().top<window.innerHeight/2*1.4){
       document.getElementById('we').play()
