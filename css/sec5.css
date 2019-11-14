@@ -182,7 +182,9 @@
     top:71vw;
     margin-left:0%;
     width:50%;
-    transform:translate(2rem);
+  }
+  #sec5 .Imgrow2 .textwrap2 * {
+    padding-left:2rem;
   }
   #sec5 .videorow img {
     position: relative;
