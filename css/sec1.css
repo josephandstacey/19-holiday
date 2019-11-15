@@ -13,7 +13,7 @@
 
 @media only screen and (max-width: 768px) {
   #sec1 {
-    height:50vh;
+    height:80vw;
   }
   #sec1 .textwrap {
     width:100%;
